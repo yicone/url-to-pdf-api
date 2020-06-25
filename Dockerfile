@@ -15,7 +15,6 @@ RUN apt-get update \
         libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 \
         libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation \
         libappindicator1 libnss3 lsb-release xdg-utils wget \
-        language-pack-zh-hant language-pack-zh-hans \
         fonts-droid-fallback ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-arphic-uming \
     && rm -r /var/lib/apt/lists/*
 
