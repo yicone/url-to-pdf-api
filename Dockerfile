@@ -1,4 +1,4 @@
-FROM node:12.18.1
+FROM node:10.21.0
 
 WORKDIR /usr/src/app
 ENV NODE_ENV production
