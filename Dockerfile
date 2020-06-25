@@ -20,6 +20,7 @@ RUN apt-get update \
 COPY package.json .
 COPY yarn.lock .
 
+RUN npm config set puppeteer_download_host=https://npm.taobao.org/mirrors
 RUN yarn install --frozen-lockfile
 
 COPY . .
